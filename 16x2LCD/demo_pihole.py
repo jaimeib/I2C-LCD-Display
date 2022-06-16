@@ -62,8 +62,8 @@ try:
         time.sleep(4)  # Wait
 
         display.lcd_clear()
-        display.lcd_display_string("Status:" + str(status), 1)
-        display.lcd_display_String("Clients:" + str(clients), 2)
+        display.lcd_display_string("Status: " + str(status), 1)
+        display.lcd_display_string("Clients: " + str(clients), 2)
         time.sleep(4)
 
         display.lcd_clear()  # Clear the screen
